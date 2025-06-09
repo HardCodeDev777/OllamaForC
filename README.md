@@ -29,7 +29,7 @@ This means you can talk to LLM models from C using just a few lines of code:
 ```c
 #include "OllamaForC.h"
 
-init_ollama("OllamaNET.dll", modelName);
+init_ollama("OllamaNET.dll", "deepseek-r1:7b);
 
 const char* response = prompt_ollama("When was GitHub created?");
 
